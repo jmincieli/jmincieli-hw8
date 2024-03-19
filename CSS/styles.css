@@ -55,6 +55,7 @@ main img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    max-height: 300px;
 }
 
 /* Section title styles */
