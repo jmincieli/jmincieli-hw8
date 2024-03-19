@@ -44,20 +44,12 @@ nav ul li a {
 }
 
 /* Main section styles */
-main section {
+main .container {
     margin-bottom: 20px;
 }
 
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
 /* Image styles */
-section img {
+main img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -66,7 +58,7 @@ section img {
 }
 
 /* Section title styles */
-section h1 {
+main section h2 {
     text-align: center;
     margin-bottom: 10px;
 }
@@ -86,4 +78,12 @@ table th, table td {
 table th {
     background-color: #333;
     color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
